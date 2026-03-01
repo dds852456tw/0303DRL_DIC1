@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Owner avatar 0301DRL_DIC1 | Personal Page</title>
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YiTingWu | Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-  <div class="time-overlay" id="current-time-display">
-    00:00:00
-  </div>
+    <div class="main-frame">
+        <!-- Background elements -->
+        <div class="bg-blob"></div>
 
-  <div class="chat-container">
-    <div class="chat-header">
-      <h1>Owner avatar 0301DRL_DIC1</h1>
-    </div>
-    
-    <div class="chat-messages" id="chat-messages">
-      <!-- Chat bubbles will go here -->
+        <main class="content-container">
+            <div class="left-section">
+                <span class="intro-tag">Hello, I Am</span>
+                <h1>YiTingWu <span class="vibrant-text">& Creative.</span></h1>
+
+                <p class="description">
+                    Helping brands and businesses reach their full potential through modern digital strategies and
+                    human-centered design.
+                </p>
+
+                <div class="info-cards">
+                    <div class="card">
+                        <h3>Specialty</h3>
+                        <p>UI Engineering</p>
+                    </div>
+                    <div class="card">
+                        <h3>Experience</h3>
+                        <p>5+ Years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="portrait-container">
+                    <!-- Placeholder for portrait, but will use generated image if available or placeholder -->
+                    <img src="yitingwu_portrait.png" alt="YiTingWu Portrait" id="portrait-image">
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer-banner">
+            <div class="footer-links">
+                <a href="#" class="footer-link">LINKEDIN</a>
+                <a href="#" class="footer-link">INSTAGRAM</a>
+                <a href="#" class="footer-link">GITHUB</a>
+                <a href="mailto:hello@yitingwu.com" class="footer-link">EMAIL ME</a>
+            </div>
+
+            <div class="time-display" id="current-time-display">
+                00:00:00
+            </div>
+        </footer>
     </div>
 
-    <div class="typing" id="typing-indicator" style="display: none;">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-    <div class="quick-actions" id="quick-actions">
-      <button class="chip" data-response="Tell me more">Tell me more</button>
-      <button class="chip" data-response="What is the time?">What is the time?</button>
-      <button class="chip" data-response="Contact Info">Contact Info</button>
-    </div>
-  </div>
-
-  <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
