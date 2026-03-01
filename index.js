@@ -15,8 +15,12 @@ function updateTime() {
 setInterval(updateTime, 1000);
 updateTime();
 
-// Add smooth scroll behavior for potential horizontal scrolling on small screens
+// Initialize Lucide Icons
 document.addEventListener('DOMContentLoaded', () => {
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+
     const mainFrame = document.querySelector('.main-frame');
     if (mainFrame) {
         mainFrame.style.opacity = '0';

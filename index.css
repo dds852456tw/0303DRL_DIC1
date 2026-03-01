@@ -129,9 +129,16 @@ h1 {
     transform: translateY(-5px);
 }
 
+.card-icon {
+    color: var(--primary-olive);
+    width: 32px;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
 .card h3 {
     font-size: 14px;
-    color: var(--primary-olive);
+    color: var(--text-grey);
     margin-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
