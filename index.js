@@ -41,7 +41,7 @@ async function handleBotResponse(responseType) {
     await showTyping();
 
     if (responseType === 'greet') {
-        addMessage("Hi! I'm Wu Yiting. Welcome to my personal page!");
+        addMessage("Hi! I'm Owner avatar 0301DRL_DIC1. Welcome to my personal page!");
     } else if (responseType === 'Tell me more') {
         addMessage("I'm a designer and developer focused on creating interactive, human-centered digital experiences. I love combining code with aesthetics.");
     } else if (responseType === 'What is the time?') {
