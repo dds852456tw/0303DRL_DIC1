@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wu Yiting | Personal Page</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="time-overlay" id="current-time-display">
+    00:00:00
+  </div>
+
+  <div class="chat-container">
+    <div class="chat-header">
+      <h1>Wu Yiting</h1>
+    </div>
+    
+    <div class="chat-messages" id="chat-messages">
+      <!-- Chat bubbles will go here -->
+    </div>
+
+    <div class="typing" id="typing-indicator" style="display: none;">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="quick-actions" id="quick-actions">
+      <button class="chip" data-response="Tell me more">Tell me more</button>
+      <button class="chip" data-response="What is the time?">What is the time?</button>
+      <button class="chip" data-response="Contact Info">Contact Info</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
